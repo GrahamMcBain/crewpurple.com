@@ -40,8 +40,8 @@ export const LP_GRID_ITEMS = [
     ),
   },
   {
-    title: "Farcaster Centric",
-    description: "Build your social graph and own your distrobution.",
+    title: "100% Yours",
+    description: "Build your social graph and own your distribution.",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
