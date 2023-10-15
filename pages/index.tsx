@@ -15,6 +15,7 @@ export default function Web() {
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta name="twitter:card" content="summary_large_image" />
+        <link rel="icon" href="/favicon-32X32.png" />
         <title>Crew</title>
       </Head>
       <section className="bg-white dark:bg-gray-900">
