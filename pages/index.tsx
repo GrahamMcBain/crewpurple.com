@@ -2,7 +2,7 @@ import { GetServerSidePropsContext } from "next"
 import Head from "next/head"
 import { Button } from "components/Button/Button"
 import { LP_GRID_ITEMS } from "../lp-items"
-import Logo from 'components/Logo';  // Adjust the import path if needed
+import Logo from '../components/logo';  // Adjust the import path if needed
 
 export default function Web() {
   return (
