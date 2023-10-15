@@ -2,6 +2,7 @@ import { GetServerSidePropsContext } from "next"
 import Head from "next/head"
 import { Button } from "components/Button/Button"
 import { LP_GRID_ITEMS } from "../lp-items"
+import Logo from 'components/Logo';  // Adjust the import path if needed
 
 export default function Web() {
   return (
@@ -18,6 +19,13 @@ export default function Web() {
         <link rel="icon" href="/favicon-32X32.png" />
         <title>Crew</title>
       </Head>
+      <>
+      <header className="flex items-center p-4">
+        <Logo />
+        {/* ...rest of your header content */}
+      </header>
+      {/* ...rest of your page content */}
+    </>
       <section className="bg-white dark:bg-gray-900">
         <div className="mx-auto grid max-w-screen-xl px-4 py-8 text-center lg:py-16">
           <div className="mx-auto place-self-center">
