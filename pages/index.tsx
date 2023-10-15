@@ -24,7 +24,7 @@ export default function Web() {
               Onchain identity for organizations
             </h1>
             <p className="mb-6 max-w-2xl font-light text-gray-500 dark:text-gray-400 md:text-lg lg:mb-8 lg:text-xl">
-              Manage your organiations onchain identity with ease
+              Manage onchain identities for your organization with ease
             </p>
             <Button href="https://calendly.com/grahammcbain/26min?month=2023-10" className="mr-3">
               Book a Demo

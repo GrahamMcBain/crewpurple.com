@@ -1,7 +1,7 @@
 export const LP_GRID_ITEMS = [
   {
-    title: "Dead Simple",
-    description: "No more juggling seedphrases.",
+    title: "Secure",
+    description: "No more juggling seedphrases",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -20,8 +20,8 @@ export const LP_GRID_ITEMS = [
     ),
   },
   {
-    title: "Secure",
-    description: "Grant access without granting ownerships.",
+    title: "Permissioned",
+    description: "Grant access without granting ownership",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -40,8 +40,8 @@ export const LP_GRID_ITEMS = [
     ),
   },
   {
-    title: "100% Yours",
-    description: "Build your social graph and own your distribution.",
+    title: "Identity",
+    description: "Claim you identity on next generation social & messaging networks",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
