@@ -2,7 +2,6 @@ import { GetServerSidePropsContext } from "next"
 import Head from "next/head"
 import { Button } from "components/Button/Button"
 import { LP_GRID_ITEMS } from "../lp-items"
-import Logo from '../components/logo';  // Adjust the import path if needed
 
 export default function Web() {
   return (
@@ -11,8 +10,7 @@ export default function Web() {
         <meta property="og:url" content="https://next-enterprise.vercel.app/" />
         <meta
           property="og:image"
-          content="https://raw.githubusercontent.com/Blazity/next-enterprise/main/project-logo.png"
-        />
+          content="https://raw.githubusercontent.com/Blazity/next-enterprise/main/project-logo.png"/>
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta name="twitter:card" content="summary_large_image" />
@@ -21,8 +19,7 @@ export default function Web() {
       </Head>
       <>
       <header className="flex items-center p-4">
-        <Logo />
-        {/* ...rest of your header content */}
+
       </header>
       {/* ...rest of your page content */}
     </>
