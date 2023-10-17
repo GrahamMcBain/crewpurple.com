@@ -41,7 +41,7 @@ export const LP_GRID_ITEMS = [
   },
   {
     title: "Identity",
-    description: "Claim you identity on next generation social & messaging networks",
+    description: "Increase your web3 footprint securely",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"

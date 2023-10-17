@@ -27,10 +27,10 @@ export default function Web() {
         <div className="mx-auto grid max-w-screen-xl px-4 py-8 text-center lg:py-16">
           <div className="mx-auto place-self-center">
             <h1 className="mb-4 max-w-2xl text-4xl font-extrabold leading-none tracking-tight dark:text-white md:text-5xl xl:text-6xl">
-              Onchain identity for organizations
+              Crew
             </h1>
             <p className="mb-6 max-w-2xl font-light text-gray-500 dark:text-gray-400 md:text-lg lg:mb-8 lg:text-xl">
-              Manage onchain identities for your organization with ease
+              Onchain identity management for organizations
             </p>
             <Button href="https://calendly.com/grahammcbain/26min?month=2023-10" className="mr-3">
               Book a Demo
