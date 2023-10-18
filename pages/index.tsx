@@ -15,7 +15,8 @@ export default function Web() {
         <meta property="og:image:height" content="630" />
         <meta name="twitter:card" content="summary_large_image" />
         <link rel="icon" href="/favicon-32X32.png" />
-        <title>Crew</title>
+        {/* <title>Crew</title> */}
+        <img src="../public/logo.png" alt="Crew" className="w-auto h-12 md:h-16 lg:h-20" />
       </Head>
       <>
       <header className="flex items-center p-4">
